@@ -1,35 +1,27 @@
-# ESTÚDIO PSI — Nova coleção autoral
+# ESTÚDIO PSI — Quatro sites centrados na profissional
 
-Quatro projetos de sites para Psicologia, criados diretamente neste repositório. Cada modelo é **independente** e funciona como um website estático completo, com HTML, CSS e JavaScript incorporados em seu próprio `index.html`.
+Coleção demonstrativa para apresentar a psicólogas locais, com perfis fictícios e fotografias ilustrativas. Cada projeto é independente, responsivo, estático e copiável para a hospedagem da cliente.
 
-## Abrir os projetos
-- [Vitrine](./index.html)
-- [01 · Essência](./modelo-01-essencia/index.html) — editorial minimalista
-- [02 · Conexão](./modelo-02-conexao/index.html) — geométrico contemporâneo
-- [03 · Acolher](./modelo-03-acolher/index.html) — orgânico humanizado
-- [04 · Autoridade](./modelo-04-autoridade/index.html) — institucional sofisticado
+- [Vitrine](https://wmrstudio.github.io/sites-psicologos/)
+- [01 Essência](https://wmrstudio.github.io/sites-psicologos/modelo-01-essencia/) — editorial oliva; Marina Albuquerque; abordagem humanista.
+- [02 Conexão](https://wmrstudio.github.io/sites-psicologos/modelo-02-conexao/) — grafite e lima; Lívia Duarte; exemplo de TCC.
+- [03 Acolher](https://wmrstudio.github.io/sites-psicologos/modelo-03-acolher/) — curvas, terracota e papel; Clara Vasconcelos; exemplo de atendimento a mulheres.
+- [04 Autoridade](https://wmrstudio.github.io/sites-psicologos/modelo-04-autoridade/) — azul, dourado e retrato monocromático; Helena Martins; exemplo de orientação psicanalítica.
 
-## Publicar com GitHub Pages
-Em **Settings → Pages → Build and deployment**, selecione **Deploy from a branch**, branch `main`, pasta `/(root)` e salve. O endereço esperado da vitrine será https://wmrstudio.github.io/sites-psicologos/.
+## Proposta
 
-## Como personalizar para um cliente
-1. Copie a pasta do modelo escolhido para um repositório novo, preferencialmente privado enquanto estiver em desenvolvimento.
-2. Em `index.html`, edite nome, descrição, título, textos e credenciais reais verificadas.
-3. Modifique as variáveis CSS `--surface`, `--accent`, `--ink` para mudar a identidade visual. Todo o CSS está dentro da tag `<style>` e pode ser separado em arquivos futuros.
-4. Troque URLs de imagens por fotografias autorizadas do profissional, de preferência hospedadas localmente.
-5. Substitua os botões marcados `data-demo` por links reais de WhatsApp com `https://wa.me/55DDDNUMERO?text=...` **somente após confirmação do número**.
-6. Altere a URL `iframe` do Google Maps para o endereço verdadeiro do consultório, se atendimento presencial confirmado.
-7. Confirme modalidade, formação, abordagem, público, CRP e informações de privacidade antes de publicar.
+Nome e retrato em destaque, apresentação pessoal, abordagem, exemplos de formação e aperfeiçoamento, público, serviços, processo, dúvidas, modalidades, horários, localização, mapa e WhatsApp. Sem avaliações, depoimentos, números de pacientes ou CRPs inventados.
 
-## Situação atual
-- Cinco páginas HTML criadas e confirmadas no repositório.
-- Layouts responsivos e animações suaves com suporte a `prefers-reduced-motion`.
-- Fotografias remotas de Unsplash usadas como **ilustrações**: dependem de acesso à internet e sua disponibilidade deve ser verificada.
-- Personagens e nomes fictícios, sem CRP inventado; não são psicólogos reais.
-- Mapa de um local público de Maringá, claramente rotulado como ilustrativo.
-- WhatsApp demonstrativo (não envia mensagens, deliberadamente).
-- **GitHub Pages ainda depende de habilitação nas configurações.**
-- Revisão de aparência final em navegadores e em dispositivos reais ainda recomendada.
+Cada projeto tem `index.html` (conteúdo e metadados), `styles.css` (identidade e layout), `config.js` (dados da cliente), `main.js` (interações), `assets/` e instruções próprias. Copiar a pasta completa.
 
-## Ética de publicidade
-Não atribuir ao personagem fictício registro profissional, credenciais, resultados, avaliações ou depoimentos reais. Para publicar um site de profissional, use somente informações confirmadas e observe as regras do CFP/CRP.
+## Personalização e descoberta local
+
+O conteúdo serve para a profissional imaginar seu próprio negócio no site. Substituir todas as informações demonstrativas por dados verificados. Configurar nome, fotografia autorizada, formação, instituições, CRP, abordagem, serviços, público, horários, endereço e contatos. Revisar HTML e configuração para manter consistência entre ambos e funcionamento sem JavaScript.
+
+Todos os CTAs de WhatsApp são demonstrativos. Para ativar, definir `demo:false` e telefone verdadeiro com país+DDD+número em `config.js`. Os mapas só carregam por escolha do visitante; no exemplo mostram a cidade, não um consultório real. Configurar mapa/rota exatos para cada cliente.
+
+As demonstrações usam `noindex, follow`. Na publicação real, remover esse `noindex`, configurar domínio/canônico, sitemap e dados estruturados com fatos reais. Título, descrição, nome, serviços e endereço devem refletir a atuação e a cidade. O Perfil da Empresa no Google também deve estar correto; o site não assegura posições ou vendas.
+
+## Hospedagem e acessibilidade
+
+Publicação pelo fluxo já existente do GitHub Pages, branch `main`, raiz. Sem dependências, build, fontes remotas ou bibliotecas de rastreamento. Fontes e fotografias locais. Menu responsivo, foco visível, dialogs nativos, perguntas expansíveis e suporte a movimento reduzido. Fotografias de banco de imagens identificadas como ilustrações, fontes SIL OFL com licenças locais.

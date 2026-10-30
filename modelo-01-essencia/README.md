@@ -37,3 +37,6 @@ Fotografias ilustrativas do Unsplash (arquivos locais):
 O retrato não representa uma psicóloga real e o interior não é um consultório verificado. Para o cliente, use fotografias próprias/autorizadas do consultório e profissional.
 
 Fontes: Cormorant Garamond e DM Sans, obtidas do Google Fonts, com licenças SIL OFL em `assets/LICENCA-*.txt`. Arquivos WOFF com subconjunto latino para carregamento mais leve. Símbolo botânico desenhado em SVG para este modelo.
+
+## Edição centrada na profissional
+A abertura agora destaca Marina Albuquerque e seu retrato, com apresentação de abordagem e público. A seção Sobre inclui exemplos de qualificações e foi adicionada uma seção de serviços. Toda informação é demonstrativa. Para personalizar, revise também nome na marca/legendas, formação, público, abordagem e metadados, além do config.js.
