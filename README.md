@@ -1,29 +1,35 @@
-# Estúdio PSI — 4 modelos Premium de sites para psicólogos
+# ESTÚDIO PSI — Nova coleção autoral
 
-Repositório para demonstração e manutenção de quatro sites HTML/CSS/JavaScript independentes, com vitrine de apresentação.
+Quatro projetos de sites para Psicologia, criados diretamente neste repositório. Cada modelo é **independente** e funciona como um website estático completo, com HTML, CSS e JavaScript incorporados em seu próprio `index.html`.
 
-## Estrutura dos arquivos
-- `index.html`: vitrine de modelos
-- `modelo-01-essencia/`: editorial minimalista
-- `modelo-02-conexao/`: contemporâneo geométrico
-- `modelo-03-acolher/`: orgânico e humanizado
-- `modelo-04-autoridade/`: institucional premium
+## Abrir os projetos
+- [Vitrine](./index.html)
+- [01 · Essência](./modelo-01-essencia/index.html) — editorial minimalista
+- [02 · Conexão](./modelo-02-conexao/index.html) — geométrico contemporâneo
+- [03 · Acolher](./modelo-03-acolher/index.html) — orgânico humanizado
+- [04 · Autoridade](./modelo-04-autoridade/index.html) — institucional sofisticado
 
-## Importar o pacote de sites Premium
-**Os arquivos dos sites ainda não foram enviados.** Para importar a versão Premium:
-1. Baixe e extraia `PSICOLOGOS_4_MODELOS_PREMIUM.zip` fornecido na conversa do ChatGPT.
-2. Abra a pasta `psicologia-sites` do ZIP.
-3. Aqui no repositório, clique **Add file → Upload files**.
-4. Arraste `index.html` e as quatro pastas `modelo-*` (e demais arquivos da pasta) para o GitHub. **Não envie apenas o ZIP**.
-5. Confirme em **Commit changes**.
-6. Entre em **Settings → Pages → Build and deployment**, selecione **Deploy from a branch**, `main`, `/(root)`, e salve.
+## Publicar com GitHub Pages
+Em **Settings → Pages → Build and deployment**, selecione **Deploy from a branch**, branch `main`, pasta `/(root)` e salve. O endereço esperado da vitrine será https://wmrstudio.github.io/sites-psicologos/.
 
-Após ativar o GitHub Pages, o endereço esperado é https://wmrstudio.github.io/sites-psicologos/.
+## Como personalizar para um cliente
+1. Copie a pasta do modelo escolhido para um repositório novo, preferencialmente privado enquanto estiver em desenvolvimento.
+2. Em `index.html`, edite nome, descrição, título, textos e credenciais reais verificadas.
+3. Modifique as variáveis CSS `--surface`, `--accent`, `--ink` para mudar a identidade visual. Todo o CSS está dentro da tag `<style>` e pode ser separado em arquivos futuros.
+4. Troque URLs de imagens por fotografias autorizadas do profissional, de preferência hospedadas localmente.
+5. Substitua os botões marcados `data-demo` por links reais de WhatsApp com `https://wa.me/55DDDNUMERO?text=...` **somente após confirmação do número**.
+6. Altere a URL `iframe` do Google Maps para o endereço verdadeiro do consultório, se atendimento presencial confirmado.
+7. Confirme modalidade, formação, abordagem, público, CRP e informações de privacidade antes de publicar.
 
-## Personalização futura
-Cada site tem HTML, CSS, JavaScript e configurações próprios. Consulte o README dentro de cada modelo para editar `data/cliente.json`, `js/config.js`, fotos, cores, seções e WhatsApp.
+## Situação atual
+- Cinco páginas HTML criadas e confirmadas no repositório.
+- Layouts responsivos e animações suaves com suporte a `prefers-reduced-motion`.
+- Fotografias remotas de Unsplash usadas como **ilustrações**: dependem de acesso à internet e sua disponibilidade deve ser verificada.
+- Personagens e nomes fictícios, sem CRP inventado; não são psicólogos reais.
+- Mapa de um local público de Maringá, claramente rotulado como ilustrativo.
+- WhatsApp demonstrativo (não envia mensagens, deliberadamente).
+- **GitHub Pages ainda depende de habilitação nas configurações.**
+- Revisão de aparência final em navegadores e em dispositivos reais ainda recomendada.
 
-## Atenção
-Os perfis das demonstrações são fictícios e as fotografias ilustrativas não representam os personagens. Mapas apontam para locais públicos demonstrativos. Antes da publicação de um site de cliente, substitua todas as informações pelos dados reais validados.
-
-**Status atual:** repositório inicial configurado, aguardando importação dos quatro sites e ativação do Pages.
+## Ética de publicidade
+Não atribuir ao personagem fictício registro profissional, credenciais, resultados, avaliações ou depoimentos reais. Para publicar um site de profissional, use somente informações confirmadas e observe as regras do CFP/CRP.
